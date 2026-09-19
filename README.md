@@ -19,3 +19,8 @@ Pleco is a paper-mache catfish with LED strips. Logging Sleep switches it to its
 ## Tech
 
 One HTML file, vanilla JS, no framework. The real version runs on a Cloudflare Worker with SQLite. This demo fakes the backend in memory.
+
+## Links
+
+- Demo: https://prachidpatel.github.io/fish-and-chips-sleep-tracker/
+- Repo: https://github.com/PrachiDPatel/fish-and-chips-sleep-tracker
