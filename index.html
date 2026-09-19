@@ -1816,6 +1816,13 @@ load();
 setInterval(function() { applyPhase(); renderHero(); renderOpenBanner(); }, 30000);
 })();
 </script>
-<div style="position:fixed;top:10px;right:12px;z-index:300;font:700 10px system-ui;letter-spacing:.08em;color:#f0c896;background:rgba(20,12,6,.72);border:1px solid rgba(240,200,150,.35);padding:4px 10px;border-radius:99px;backdrop-filter:blur(6px)">DEMO</div>
+<style>
+/* demo de-slop: not part of the private app */
+:root { --radius: 14px; }
+.settings-card { box-shadow: none; }
+.tabbar { background: var(--bg); -webkit-backdrop-filter: none; backdrop-filter: none; }
+.log-button { background: var(--accent-soft); border-color: var(--border); }
+</style>
+<div style="position:fixed;top:10px;right:12px;z-index:300;font:700 10px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.12em;color:#0b0f16;background:#f0c896;padding:4px 9px;border-radius:4px;">DEMO</div>
 </body>
 </html>
